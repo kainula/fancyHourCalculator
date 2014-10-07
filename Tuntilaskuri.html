@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tuntilaskuri</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="my_css/main.css">
+	
+	
+
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Hour calculation made easy</h1>
+			<p>Stop using your fingers to count hours</p>
+		</div>
+	</div>
+
+
+	<div class="container">
+		
+		<form role="form" class="form-horizontal">
+			<div class="row">
+				<div class="col-md-4 form-group">
+					<label for="start-time">What time did you start?</label>
+					<input type="time" class="form-control" name="start-time">
+				</div>
+
+				<div class="col-md-4 form-group">
+					<label for="end-time">What time did you end?</label>
+					<input type="time" class="form-control" name="end-time">
+				</div>
+
+				<div class="col-md-4 form-group">
+					<label for="lunch-time">How long was your lunch break?</label>
+					<input type="time" class="form-control" name="lunch-time">
+				</div>
+
+			</div>
+		</form>
+		<div class="row">
+			<button id="calculate" type="button" class="btn btn-default"><i class="fa fa-chevron-right"></i>Calculate</button>
+		</div>
+
+		
+	</div>	
+
+	<div class="container">
+		<div class="row" id="answer">
+
+		</div>
+	</div>
+
+
+	<div>
+		<p>Colours from <a href="http://www.colourlovers.com/lover/thesapphirerose/loveNote">Thesapphirerose</a> <p>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="my_script.js"></script>
+
+</body>
+</html>

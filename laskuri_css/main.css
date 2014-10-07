@@ -1,0 +1,31 @@
+
+.jumbotron{
+	background-image:url("../images/background_image.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.jumbotron .container{
+	position: relative;
+	top:100px;
+}
+
+.jumbotron p{
+	color: #AD8A74;
+}
+
+.jumbotron h1{
+
+	color: #583021;
+}
+
+body{
+	background-color: #F6E1CE;
+}
+
+label{
+	font-size: 32px;
+	
+}
