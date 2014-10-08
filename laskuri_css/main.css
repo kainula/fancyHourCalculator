@@ -29,3 +29,36 @@ label{
 	font-size: 32px;
 	
 }
+
+/* navbar formatting*/
+
+.navbar-default{
+	background-color: #F6E1CE;
+	/*border-color:#583021;*/
+	border-style:none;
+	
+}
+
+/*.navbar-default .navbar-brand{
+	color: #AD8A74;
+}*/
+
+.nav{
+	border-color:#583021;
+}
+
+
+
+.nav-tabs > li > a {
+    color: #583021;
+
+}
+
+.nav-tabs>li.active>a {
+	border-color:#583021;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+    color: #AD8A74;
+    border-style:none;
+}
